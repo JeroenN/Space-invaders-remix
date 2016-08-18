@@ -20,13 +20,10 @@ int main()
     float enemiesLengte = 30;
     float enemyPosition= 150;
     float enemiesBreedte = 25;
-    float timeBullet =0;
-    int aantalBullets=0;
     float oneBullet =1;
     int totalEnemies=10;
     int totalEnemiesCreate =0;
     int enemiesPerRij =10;
-    int rij;
     int totalEnemyBulletShot =0;
     float enemiesPosYHight=100;
     float enemySpeed =0.05;
@@ -79,7 +76,6 @@ int main()
        //enemies.push_back(sf::RectangleShape(sf::Vector2f(enemiesLengte, enemiesBreedte)));
 
     //}
-    rij =enemiesPerRij;
     totalEnemiesCreate += enemiesPerRij;
 
     for(int i=0; i<totalEnemies; ++i)
