@@ -11,6 +11,7 @@
 
 int main()
 {
+    Haha! Ik zet hier een fout!
     float size = 10;
     float posX =0;
     float posY =0;
